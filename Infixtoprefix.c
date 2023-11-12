@@ -77,8 +77,10 @@ int Icp(char x)
 
 int InfixToPrefix(char exp[], char prefix[])
 {
+    top = -1;
     char symb;
     int j=0;
+    int i=0;
 
     while (srev[i] != '\0')
     {
