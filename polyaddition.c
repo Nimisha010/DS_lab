@@ -1,4 +1,3 @@
-11.12 18:5
 #include <stdio.h>
 
 struct poly {
